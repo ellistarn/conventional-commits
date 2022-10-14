@@ -1,4 +1,4 @@
-name: 'Conventional Commits'
+name: 'codehabits/conventional-commits'
 description: 'Require commits and PR titles to follow https://www.conventionalcommits.org/'
 runs:
   using: 'node16'

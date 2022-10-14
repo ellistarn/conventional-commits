@@ -9,5 +9,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - run: codehabits/conventional-commits@latest
+    - uses: codehabits/conventional-commits@v0.0.1
 ```

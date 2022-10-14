@@ -1,0 +1,28 @@
+{
+  "name": "conventional-commits",
+  "version": "0.0.1",
+  "description": "Github action that enforces conventional commits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codehabits/conventional-commits.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codehabits/conventional-commits/issues"
+  },
+  "homepage": "https://github.com/codehabits/conventional-commits#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
+    "@conventional-commits/parser": "^0.4.1",
+    "@octokit/webhooks-definitions": "^3.67.3"
+  }
+}

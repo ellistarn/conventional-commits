@@ -1,0 +1,5 @@
+name: 'Conventional Commits'
+description: 'Require commits and PR titles to follow https://www.conventionalcommits.org/'
+runs:
+  using: 'node16'
+  main: 'index.js'

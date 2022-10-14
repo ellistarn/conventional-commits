@@ -33,7 +33,7 @@ function validateCommits(commits: Commit[]) {
             core.info(`✅ ${commit.message}`)
         } catch (error) {
             core.error(`❌ ${commit.message}`)
-            core.setFailed(error)
+            core.setFailed(error as Error)
         }
     })
 }
